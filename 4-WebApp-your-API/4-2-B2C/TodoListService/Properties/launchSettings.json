@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "https://localhost:44332/",
+      "applicationUrl": "https://redondotasksapi.azurewebsites.net:44332/",
       "sslPort": 44332
     }
   },
@@ -12,7 +12,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "https://localhost:44332/",
+      "launchUrl": "https://redondotasksapi.azurewebsites.net:44332/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -23,7 +23,7 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "https://localhost:44332/"
+      "applicationUrl": "https://redondotasksapi.azurewebsites.net:44332/"
     }
   }
 }

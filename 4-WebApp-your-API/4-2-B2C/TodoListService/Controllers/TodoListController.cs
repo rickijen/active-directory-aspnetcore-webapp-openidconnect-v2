@@ -34,10 +34,10 @@ namespace TodoListService.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
-    [RequiredScope("tasks.read")]
+    [RequiredScope("tasks.write")]
     public class TodoListController : Controller
     {
-        const string scopeRequiredByAPI = "access_as_user" ;
+        const string scopeRequiredByAPI = "access_as_user";
         // In-memory TodoList
         private static readonly Dictionary<int, Todo> TodoStore = new Dictionary<int, Todo>();
 
