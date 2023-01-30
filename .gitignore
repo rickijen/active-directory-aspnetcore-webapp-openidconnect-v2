@@ -138,3 +138,7 @@ packages
 /.vscode
 /2-WebApp-graph-user/2-1-Call-MSGraph/Properties/PublishProfiles
 /2-WebApp-graph-user/2-3-Multi-Tenant/AppCreationScripts/createdApps.html
+4-WebApp-your-API/4-2-B2C/Client/.vscode/launch.json
+4-WebApp-your-API/4-2-B2C/Client/.vscode/tasks.json
+4-WebApp-your-API/4-2-B2C/TodoListService/.vscode/launch.json
+4-WebApp-your-API/4-2-B2C/TodoListService/.vscode/tasks.json

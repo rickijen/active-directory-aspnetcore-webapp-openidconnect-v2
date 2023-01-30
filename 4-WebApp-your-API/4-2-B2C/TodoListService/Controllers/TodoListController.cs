@@ -34,7 +34,7 @@ namespace TodoListService.Controllers
 {
     [Authorize]
     [Route("api/[controller]")]
-    [RequiredScope(scopeRequiredByAPI)]
+    [RequiredScope("tasks.read")]
     public class TodoListController : Controller
     {
         const string scopeRequiredByAPI = "access_as_user" ;
